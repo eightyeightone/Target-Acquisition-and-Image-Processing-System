@@ -9,7 +9,7 @@ The premise of this project was to develop an Unmanned Aircraft System (UAS) to 
 3. Payload Deployment,
 4. Autopilot, Navigation and Localization,
 5. Operator Interfaces,
-6 **Target Acquisition and Image Processing**. 
+6. **Target Acquisition and Image Processing**. 
 
 I was the Target Acquisition \& Image Processing Lead, with six group members taking different leads. The task was to develop the UAS such that it could conduct an autonomous search of a simulated urban environment after a natural disaster. During the flight the UAS was required to identify and locate two human targets and deploy the correct emergency medication based on the target’s requirements (represented by a square and a triangle).
 

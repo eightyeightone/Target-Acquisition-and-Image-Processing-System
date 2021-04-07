@@ -1,6 +1,8 @@
 ## Target Acquisition and Image Processing System
 ###### Queensland University of Technology Project: EGH450 Advanced Unmanned Aircraft Systems, completed in Semester 2 of 2019 (22 July - 25 October).
 
+##### See, 450G1-IMP-FD-04.pdf for the Final Design documentation and 450G1-IMP-TR08-02.pdf for the Test Report.
+
 #### Summary
 The premise of this project was to develop an Unmanned Aircraft System (UAS) to complete an Urban Search and Rescue Mission (simulated in a QUT Laboratory). The project was separated into subsystems;
 

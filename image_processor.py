@@ -105,7 +105,7 @@ class PoseEstimator():
                 self.got_camera_info = True
 
 
-        def callback)img(self, msg_in):
+        def callback_img(self, msg_in):
             if msg_in.header.stamp > self.time_finished_processing:
 
             # Don't bother to process image if we don't have camera calibration.

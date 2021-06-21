@@ -170,7 +170,7 @@ class PoseEstimator():
 
                     ''' The below...
                     '''
-                    if sign_T is not None:
+                    if sign_T:
                         for (x,y,w,h) in sign_T:
                     # Calculate the pictured model for the pose solver
                     # For this example, draw a square around where the circle

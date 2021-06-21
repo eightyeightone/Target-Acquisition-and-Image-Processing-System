@@ -125,10 +125,10 @@ class PoseEstimator():
                     # If a square was detected:
                     ''' The below...
                     '''
-                    sign_s = self.sign_cascade_S.detectMultiScale(cv_image, 1.01,1)
-                    sign_s = self.sign_cascade_T.detectMultiScale(cv_image, 1.01,1)
+                    sign_S = self.sign_cascade_S.detectMultiScale(cv_image, 1.01,1)
+                    sign_T = self.sign_cascade_T.detectMultiScale(cv_image, 1.01,1)
 
-                    if sign_S is not None:
+                    if sign_S:
                         for (x,y,w,h) in sign_S:
                     # Calculate the pictured model for the pose solver
                     # For this example, draw a square around where the circle
